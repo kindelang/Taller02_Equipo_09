@@ -22,10 +22,41 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container()
+        Me.cmdIngresarD = New System.Windows.Forms.Button()
+        Me.cmdTerminar = New System.Windows.Forms.Button()
+        Me.SuspendLayout()
+        '
+        'cmdIngresarD
+        '
+        Me.cmdIngresarD.Location = New System.Drawing.Point(233, 194)
+        Me.cmdIngresarD.Name = "cmdIngresarD"
+        Me.cmdIngresarD.Size = New System.Drawing.Size(95, 45)
+        Me.cmdIngresarD.TabIndex = 0
+        Me.cmdIngresarD.Text = "Ingresar Datos"
+        Me.cmdIngresarD.UseVisualStyleBackColor = True
+        '
+        'cmdTerminar
+        '
+        Me.cmdTerminar.Location = New System.Drawing.Point(389, 194)
+        Me.cmdTerminar.Name = "cmdTerminar"
+        Me.cmdTerminar.Size = New System.Drawing.Size(95, 45)
+        Me.cmdTerminar.TabIndex = 1
+        Me.cmdTerminar.Text = "Terminar"
+        Me.cmdTerminar.UseVisualStyleBackColor = True
+        '
+        'Form1
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.cmdTerminar)
+        Me.Controls.Add(Me.cmdIngresarD)
+        Me.Name = "Form1"
         Me.Text = "Form1"
+        Me.ResumeLayout(False)
+
     End Sub
 
+    Friend WithEvents cmdIngresarD As Button
+    Friend WithEvents cmdTerminar As Button
 End Class
