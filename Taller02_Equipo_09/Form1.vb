@@ -1,14 +1,18 @@
 ﻿Public Class Form1
+    Dim nombres As String
+    Dim contador As Integer = 1
     Private Sub cmdIngresarD_Click(sender As Object, e As EventArgs) Handles cmdIngresarD.Click
         'Declaramos la variable nombre
         Dim nombre As String
-        Dim Acum As Integer
+
+
 
         'Entrada de datos mediante un inputbox
-        nombre = InputBox("Ingrese Nombre ", "Registro de Datos Personales", "", 100, 50)
+        nombre = InputBox("Ingrese su Nombre ", "Registro de datos personales", "", 100, 50)
+        nombres = nombres & contador & ". " + nombre + vbCrLf
         If nombre IsNot "" Then
-            MsgBox(Acum & ". " + nombre1, vbOKOnly, "Registro de Datos")
-
+            MsgBox("Bienvenido Usuario: " + nombre + vbCrLf & nombres, vbOKOnly, "Registro de datos")
+            contador += 1
         End If
 
     End Sub
