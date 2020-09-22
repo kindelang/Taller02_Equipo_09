@@ -24,11 +24,13 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Me.cmdIngresarD = New System.Windows.Forms.Button()
         Me.cmdTerminar = New System.Windows.Forms.Button()
+        Me.ListBoxNames = New System.Windows.Forms.ListBox()
+        Me.TextBoxNames = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'cmdIngresarD
         '
-        Me.cmdIngresarD.Location = New System.Drawing.Point(233, 194)
+        Me.cmdIngresarD.Location = New System.Drawing.Point(222, 64)
         Me.cmdIngresarD.Name = "cmdIngresarD"
         Me.cmdIngresarD.Size = New System.Drawing.Size(95, 45)
         Me.cmdIngresarD.TabIndex = 0
@@ -37,26 +39,50 @@ Partial Class Form1
         '
         'cmdTerminar
         '
-        Me.cmdTerminar.Location = New System.Drawing.Point(389, 194)
+        Me.cmdTerminar.Location = New System.Drawing.Point(399, 64)
         Me.cmdTerminar.Name = "cmdTerminar"
         Me.cmdTerminar.Size = New System.Drawing.Size(95, 45)
         Me.cmdTerminar.TabIndex = 1
         Me.cmdTerminar.Text = "Terminar"
         Me.cmdTerminar.UseVisualStyleBackColor = True
         '
+        'ListBoxNames
+        '
+        Me.ListBoxNames.FormattingEnabled = True
+        Me.ListBoxNames.Location = New System.Drawing.Point(137, 208)
+        Me.ListBoxNames.Name = "ListBoxNames"
+        Me.ListBoxNames.ScrollAlwaysVisible = True
+        Me.ListBoxNames.Size = New System.Drawing.Size(180, 173)
+        Me.ListBoxNames.TabIndex = 2
+        '
+        'TextBoxNames
+        '
+        Me.TextBoxNames.Location = New System.Drawing.Point(399, 208)
+        Me.TextBoxNames.Multiline = True
+        Me.TextBoxNames.Name = "TextBoxNames"
+        Me.TextBoxNames.ReadOnly = True
+        Me.TextBoxNames.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
+        Me.TextBoxNames.Size = New System.Drawing.Size(170, 173)
+        Me.TextBoxNames.TabIndex = 3
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.TextBoxNames)
+        Me.Controls.Add(Me.ListBoxNames)
         Me.Controls.Add(Me.cmdTerminar)
         Me.Controls.Add(Me.cmdIngresarD)
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
     Friend WithEvents cmdIngresarD As Button
     Friend WithEvents cmdTerminar As Button
+    Friend WithEvents ListBoxNames As ListBox
+    Friend WithEvents TextBoxNames As TextBox
 End Class

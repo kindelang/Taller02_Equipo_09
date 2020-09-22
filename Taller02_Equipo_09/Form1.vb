@@ -12,8 +12,14 @@
         nombres = nombres & contador & ". " + nombre + vbCrLf
         If nombre IsNot "" Then
             MsgBox("Bienvenido Usuario: " + nombre + vbCrLf & nombres, vbOKOnly, "Registro de datos")
+
+            TextBoxNames.Text = ""
+
+            TextBoxNames.Text = nombres
+            ListBoxNames.Items.Add(contador & ". " & nombre)
             contador += 1
         End If
+
 
     End Sub
 
@@ -23,6 +29,10 @@
         If (opcion = DialogResult.Yes) Then
             Me.Close()
         End If
+
+    End Sub
+
+    Private Sub TextBoxNames_TextChanged(sender As Object, e As EventArgs) Handles TextBoxNames.TextChanged
 
     End Sub
 End Class

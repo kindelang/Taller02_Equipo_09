@@ -10,3 +10,4 @@ D:\Utp\Anna Araba DS VIII\VS\Taller02_Equipo_09\Taller02_Equipo_09\obj\Debug\Tal
 D:\Utp\Anna Araba DS VIII\VS\Taller02_Equipo_09\Taller02_Equipo_09\obj\Debug\Taller02_Equipo_09.exe
 D:\Utp\Anna Araba DS VIII\VS\Taller02_Equipo_09\Taller02_Equipo_09\obj\Debug\Taller02_Equipo_09.xml
 D:\Utp\Anna Araba DS VIII\VS\Taller02_Equipo_09\Taller02_Equipo_09\obj\Debug\Taller02_Equipo_09.pdb
+D:\Utp\Anna Araba DS VIII\VS\Taller02_Equipo_09\Taller02_Equipo_09\obj\Debug\Taller02_Equipo_09.Form2.resources
