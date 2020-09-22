@@ -11,3 +11,17 @@ D:\Utp\Anna Araba DS VIII\VS\Taller02_Equipo_09\Taller02_Equipo_09\obj\Debug\Tal
 D:\Utp\Anna Araba DS VIII\VS\Taller02_Equipo_09\Taller02_Equipo_09\obj\Debug\Taller02_Equipo_09.xml
 D:\Utp\Anna Araba DS VIII\VS\Taller02_Equipo_09\Taller02_Equipo_09\obj\Debug\Taller02_Equipo_09.pdb
 D:\Utp\Anna Araba DS VIII\VS\Taller02_Equipo_09\Taller02_Equipo_09\obj\Debug\Taller02_Equipo_09.Form2.resources
+C:\Users\diego\Desktop\utp\desarrollo VIII\Taller2\Taller02_Equipo_09\Taller02_Equipo_09\bin\Debug\Taller02_Equipo_09.exe.config
+C:\Users\diego\Desktop\utp\desarrollo VIII\Taller2\Taller02_Equipo_09\Taller02_Equipo_09\bin\Debug\Taller02_Equipo_09.exe
+C:\Users\diego\Desktop\utp\desarrollo VIII\Taller2\Taller02_Equipo_09\Taller02_Equipo_09\bin\Debug\Taller02_Equipo_09.pdb
+C:\Users\diego\Desktop\utp\desarrollo VIII\Taller2\Taller02_Equipo_09\Taller02_Equipo_09\bin\Debug\Taller02_Equipo_09.xml
+C:\Users\diego\Desktop\utp\desarrollo VIII\Taller2\Taller02_Equipo_09\Taller02_Equipo_09\obj\Debug\Taller02_Equipo_09.vbprojAssemblyReference.cache
+C:\Users\diego\Desktop\utp\desarrollo VIII\Taller2\Taller02_Equipo_09\Taller02_Equipo_09\obj\Debug\Taller02_Equipo_09.Form1.resources
+C:\Users\diego\Desktop\utp\desarrollo VIII\Taller2\Taller02_Equipo_09\Taller02_Equipo_09\obj\Debug\Taller02_Equipo_09.Form2.resources
+C:\Users\diego\Desktop\utp\desarrollo VIII\Taller2\Taller02_Equipo_09\Taller02_Equipo_09\obj\Debug\Taller02_Equipo_09.Resources.resources
+C:\Users\diego\Desktop\utp\desarrollo VIII\Taller2\Taller02_Equipo_09\Taller02_Equipo_09\obj\Debug\Taller02_Equipo_09.vbproj.GenerateResource.cache
+C:\Users\diego\Desktop\utp\desarrollo VIII\Taller2\Taller02_Equipo_09\Taller02_Equipo_09\obj\Debug\Taller02_Equipo_09.vbproj.CoreCompileInputs.cache
+C:\Users\diego\Desktop\utp\desarrollo VIII\Taller2\Taller02_Equipo_09\Taller02_Equipo_09\obj\Debug\Taller02_Equipo_09.exe
+C:\Users\diego\Desktop\utp\desarrollo VIII\Taller2\Taller02_Equipo_09\Taller02_Equipo_09\obj\Debug\Taller02_Equipo_09.xml
+C:\Users\diego\Desktop\utp\desarrollo VIII\Taller2\Taller02_Equipo_09\Taller02_Equipo_09\obj\Debug\Taller02_Equipo_09.pdb
+C:\Users\diego\Desktop\utp\desarrollo VIII\Taller2\Taller02_Equipo_09\Taller02_Equipo_09\obj\Debug\Taller02_Equipo_09.Form3.resources

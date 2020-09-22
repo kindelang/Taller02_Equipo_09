@@ -26,6 +26,7 @@ Partial Class Form1
         Me.cmdTerminar = New System.Windows.Forms.Button()
         Me.ListBoxNames = New System.Windows.Forms.ListBox()
         Me.TextBoxNames = New System.Windows.Forms.TextBox()
+        Me.btnForm3 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'cmdIngresarD
@@ -65,11 +66,21 @@ Partial Class Form1
         Me.TextBoxNames.Size = New System.Drawing.Size(170, 173)
         Me.TextBoxNames.TabIndex = 3
         '
+        'btnForm3
+        '
+        Me.btnForm3.Location = New System.Drawing.Point(685, 31)
+        Me.btnForm3.Name = "btnForm3"
+        Me.btnForm3.Size = New System.Drawing.Size(81, 32)
+        Me.btnForm3.TabIndex = 4
+        Me.btnForm3.Text = "Formulario 3"
+        Me.btnForm3.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.btnForm3)
         Me.Controls.Add(Me.TextBoxNames)
         Me.Controls.Add(Me.ListBoxNames)
         Me.Controls.Add(Me.cmdTerminar)
@@ -85,4 +96,5 @@ Partial Class Form1
     Friend WithEvents cmdTerminar As Button
     Friend WithEvents ListBoxNames As ListBox
     Friend WithEvents TextBoxNames As TextBox
+    Friend WithEvents btnForm3 As Button
 End Class

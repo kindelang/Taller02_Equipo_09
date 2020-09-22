@@ -35,4 +35,9 @@
     Private Sub TextBoxNames_TextChanged(sender As Object, e As EventArgs) Handles TextBoxNames.TextChanged
 
     End Sub
+
+    Private Sub BtnForm3_Click(sender As Object, e As EventArgs) Handles btnForm3.Click
+        Me.Hide()
+        Form3.Show()
+    End Sub
 End Class
