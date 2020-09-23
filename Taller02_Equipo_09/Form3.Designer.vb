@@ -23,25 +23,26 @@ Partial Class Form3
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.container = New System.Windows.Forms.Panel()
-        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
-        Me.optFondoVerde = New System.Windows.Forms.RadioButton()
-        Me.optFondoRojo = New System.Windows.Forms.RadioButton()
-        Me.optFondoAzul = New System.Windows.Forms.RadioButton()
-        Me.txtTexto = New System.Windows.Forms.TextBox()
         Me.btnCambiosTexto = New System.Windows.Forms.Button()
-        Me.optFuenteCyan = New System.Windows.Forms.RadioButton()
-        Me.optFuenteMagenta = New System.Windows.Forms.RadioButton()
-        Me.optFuenteBlanco = New System.Windows.Forms.RadioButton()
-        Me.chkMayuscula = New System.Windows.Forms.CheckBox()
+        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
         Me.chkNegrita = New System.Windows.Forms.CheckBox()
+        Me.chkMayuscula = New System.Windows.Forms.CheckBox()
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.optFuenteBlanco = New System.Windows.Forms.RadioButton()
+        Me.optFuenteMagenta = New System.Windows.Forms.RadioButton()
+        Me.optFuenteCyan = New System.Windows.Forms.RadioButton()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.optFondoAzul = New System.Windows.Forms.RadioButton()
+        Me.optFondoRojo = New System.Windows.Forms.RadioButton()
+        Me.optFondoVerde = New System.Windows.Forms.RadioButton()
+        Me.txtTexto = New System.Windows.Forms.TextBox()
         Me.btnLimpiar = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.container.SuspendLayout()
-        Me.GroupBox1.SuspendLayout()
-        Me.GroupBox2.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
+        Me.GroupBox2.SuspendLayout()
+        Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
         'container
@@ -56,19 +57,48 @@ Partial Class Form3
         Me.container.Size = New System.Drawing.Size(693, 273)
         Me.container.TabIndex = 0
         '
-        'GroupBox1
+        'btnCambiosTexto
         '
-        Me.GroupBox1.BackColor = System.Drawing.SystemColors.HighlightText
-        Me.GroupBox1.Controls.Add(Me.optFondoAzul)
-        Me.GroupBox1.Controls.Add(Me.optFondoRojo)
-        Me.GroupBox1.Controls.Add(Me.optFondoVerde)
-        Me.GroupBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox1.Location = New System.Drawing.Point(43, 50)
-        Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(147, 147)
-        Me.GroupBox1.TabIndex = 0
-        Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "Color de Fondo"
+        Me.btnCambiosTexto.Font = New System.Drawing.Font("Microsoft Tai Le", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnCambiosTexto.Location = New System.Drawing.Point(241, 219)
+        Me.btnCambiosTexto.Name = "btnCambiosTexto"
+        Me.btnCambiosTexto.Size = New System.Drawing.Size(171, 36)
+        Me.btnCambiosTexto.TabIndex = 2
+        Me.btnCambiosTexto.Text = "Realizar Cambios"
+        Me.btnCambiosTexto.UseVisualStyleBackColor = True
+        '
+        'GroupBox3
+        '
+        Me.GroupBox3.BackColor = System.Drawing.Color.PaleGoldenrod
+        Me.GroupBox3.Controls.Add(Me.chkNegrita)
+        Me.GroupBox3.Controls.Add(Me.chkMayuscula)
+        Me.GroupBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GroupBox3.Location = New System.Drawing.Point(480, 50)
+        Me.GroupBox3.Name = "GroupBox3"
+        Me.GroupBox3.Size = New System.Drawing.Size(147, 147)
+        Me.GroupBox3.TabIndex = 1
+        Me.GroupBox3.TabStop = False
+        Me.GroupBox3.Text = "Opciones de Fuente"
+        '
+        'chkNegrita
+        '
+        Me.chkNegrita.AutoSize = True
+        Me.chkNegrita.Location = New System.Drawing.Point(25, 67)
+        Me.chkNegrita.Name = "chkNegrita"
+        Me.chkNegrita.Size = New System.Drawing.Size(67, 17)
+        Me.chkNegrita.TabIndex = 1
+        Me.chkNegrita.Text = "Negrita"
+        Me.chkNegrita.UseVisualStyleBackColor = True
+        '
+        'chkMayuscula
+        '
+        Me.chkMayuscula.AutoSize = True
+        Me.chkMayuscula.Location = New System.Drawing.Point(25, 36)
+        Me.chkMayuscula.Name = "chkMayuscula"
+        Me.chkMayuscula.Size = New System.Drawing.Size(86, 17)
+        Me.chkMayuscula.TabIndex = 0
+        Me.chkMayuscula.Text = "Mayuscula"
+        Me.chkMayuscula.UseVisualStyleBackColor = True
         '
         'GroupBox2
         '
@@ -84,87 +114,18 @@ Partial Class Form3
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Color de Fuente"
         '
-        'GroupBox3
+        'optFuenteBlanco
         '
-        Me.GroupBox3.BackColor = System.Drawing.Color.PaleGoldenrod
-        Me.GroupBox3.Controls.Add(Me.chkNegrita)
-        Me.GroupBox3.Controls.Add(Me.chkMayuscula)
-        Me.GroupBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox3.Location = New System.Drawing.Point(480, 50)
-        Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(147, 147)
-        Me.GroupBox3.TabIndex = 1
-        Me.GroupBox3.TabStop = False
-        Me.GroupBox3.Text = "Opciones de Fuente"
-        '
-        'optFondoVerde
-        '
-        Me.optFondoVerde.AutoSize = True
-        Me.optFondoVerde.BackColor = System.Drawing.Color.White
-        Me.optFondoVerde.ForeColor = System.Drawing.Color.Green
-        Me.optFondoVerde.Location = New System.Drawing.Point(16, 34)
-        Me.optFondoVerde.Name = "optFondoVerde"
-        Me.optFondoVerde.Size = New System.Drawing.Size(58, 17)
-        Me.optFondoVerde.TabIndex = 0
-        Me.optFondoVerde.TabStop = True
-        Me.optFondoVerde.Text = "Verde"
-        Me.optFondoVerde.UseVisualStyleBackColor = False
-        '
-        'optFondoRojo
-        '
-        Me.optFondoRojo.AutoSize = True
-        Me.optFondoRojo.ForeColor = System.Drawing.Color.Red
-        Me.optFondoRojo.Location = New System.Drawing.Point(16, 67)
-        Me.optFondoRojo.Name = "optFondoRojo"
-        Me.optFondoRojo.Size = New System.Drawing.Size(51, 17)
-        Me.optFondoRojo.TabIndex = 1
-        Me.optFondoRojo.TabStop = True
-        Me.optFondoRojo.Text = "Rojo"
-        Me.optFondoRojo.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.optFondoRojo.UseVisualStyleBackColor = True
-        '
-        'optFondoAzul
-        '
-        Me.optFondoAzul.AutoSize = True
-        Me.optFondoAzul.ForeColor = System.Drawing.Color.Blue
-        Me.optFondoAzul.Location = New System.Drawing.Point(16, 104)
-        Me.optFondoAzul.Name = "optFondoAzul"
-        Me.optFondoAzul.Size = New System.Drawing.Size(49, 17)
-        Me.optFondoAzul.TabIndex = 2
-        Me.optFondoAzul.TabStop = True
-        Me.optFondoAzul.Text = "Azul"
-        Me.optFondoAzul.UseVisualStyleBackColor = True
-        '
-        'txtTexto
-        '
-        Me.txtTexto.Location = New System.Drawing.Point(62, 39)
-        Me.txtTexto.Name = "txtTexto"
-        Me.txtTexto.Size = New System.Drawing.Size(292, 20)
-        Me.txtTexto.TabIndex = 1
-        Me.txtTexto.Text = "Texto a Cambiar"
-        '
-        'btnCambiosTexto
-        '
-        Me.btnCambiosTexto.Font = New System.Drawing.Font("Microsoft Tai Le", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnCambiosTexto.Location = New System.Drawing.Point(241, 219)
-        Me.btnCambiosTexto.Name = "btnCambiosTexto"
-        Me.btnCambiosTexto.Size = New System.Drawing.Size(171, 36)
-        Me.btnCambiosTexto.TabIndex = 2
-        Me.btnCambiosTexto.Text = "Realizar Cambios"
-        Me.btnCambiosTexto.UseVisualStyleBackColor = True
-        '
-        'optFuenteCyan
-        '
-        Me.optFuenteCyan.Appearance = System.Windows.Forms.Appearance.Button
-        Me.optFuenteCyan.AutoSize = True
-        Me.optFuenteCyan.BackColor = System.Drawing.Color.Cyan
-        Me.optFuenteCyan.Location = New System.Drawing.Point(16, 31)
-        Me.optFuenteCyan.Name = "optFuenteCyan"
-        Me.optFuenteCyan.Size = New System.Drawing.Size(45, 23)
-        Me.optFuenteCyan.TabIndex = 0
-        Me.optFuenteCyan.TabStop = True
-        Me.optFuenteCyan.Text = "Cyan"
-        Me.optFuenteCyan.UseVisualStyleBackColor = False
+        Me.optFuenteBlanco.Appearance = System.Windows.Forms.Appearance.Button
+        Me.optFuenteBlanco.AutoSize = True
+        Me.optFuenteBlanco.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.optFuenteBlanco.Location = New System.Drawing.Point(16, 104)
+        Me.optFuenteBlanco.Name = "optFuenteBlanco"
+        Me.optFuenteBlanco.Size = New System.Drawing.Size(56, 23)
+        Me.optFuenteBlanco.TabIndex = 2
+        Me.optFuenteBlanco.TabStop = True
+        Me.optFuenteBlanco.Text = "Blanco"
+        Me.optFuenteBlanco.UseVisualStyleBackColor = False
         '
         'optFuenteMagenta
         '
@@ -179,38 +140,78 @@ Partial Class Form3
         Me.optFuenteMagenta.Text = "Magenta"
         Me.optFuenteMagenta.UseVisualStyleBackColor = False
         '
-        'optFuenteBlanco
+        'optFuenteCyan
         '
-        Me.optFuenteBlanco.Appearance = System.Windows.Forms.Appearance.Button
-        Me.optFuenteBlanco.AutoSize = True
-        Me.optFuenteBlanco.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.optFuenteBlanco.Location = New System.Drawing.Point(16, 104)
-        Me.optFuenteBlanco.Name = "optFuenteBlanco"
-        Me.optFuenteBlanco.Size = New System.Drawing.Size(56, 23)
-        Me.optFuenteBlanco.TabIndex = 2
-        Me.optFuenteBlanco.TabStop = True
-        Me.optFuenteBlanco.Text = "Blanco"
-        Me.optFuenteBlanco.UseVisualStyleBackColor = False
+        Me.optFuenteCyan.Appearance = System.Windows.Forms.Appearance.Button
+        Me.optFuenteCyan.AutoSize = True
+        Me.optFuenteCyan.BackColor = System.Drawing.Color.Cyan
+        Me.optFuenteCyan.Location = New System.Drawing.Point(16, 31)
+        Me.optFuenteCyan.Name = "optFuenteCyan"
+        Me.optFuenteCyan.Size = New System.Drawing.Size(45, 23)
+        Me.optFuenteCyan.TabIndex = 0
+        Me.optFuenteCyan.TabStop = True
+        Me.optFuenteCyan.Text = "Cyan"
+        Me.optFuenteCyan.UseVisualStyleBackColor = False
         '
-        'chkMayuscula
+        'GroupBox1
         '
-        Me.chkMayuscula.AutoSize = True
-        Me.chkMayuscula.Location = New System.Drawing.Point(25, 36)
-        Me.chkMayuscula.Name = "chkMayuscula"
-        Me.chkMayuscula.Size = New System.Drawing.Size(86, 17)
-        Me.chkMayuscula.TabIndex = 0
-        Me.chkMayuscula.Text = "Mayuscula"
-        Me.chkMayuscula.UseVisualStyleBackColor = True
+        Me.GroupBox1.BackColor = System.Drawing.SystemColors.HighlightText
+        Me.GroupBox1.Controls.Add(Me.optFondoAzul)
+        Me.GroupBox1.Controls.Add(Me.optFondoRojo)
+        Me.GroupBox1.Controls.Add(Me.optFondoVerde)
+        Me.GroupBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GroupBox1.Location = New System.Drawing.Point(43, 50)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(147, 147)
+        Me.GroupBox1.TabIndex = 0
+        Me.GroupBox1.TabStop = False
+        Me.GroupBox1.Text = "Color de Fondo"
         '
-        'chkNegrita
+        'optFondoAzul
         '
-        Me.chkNegrita.AutoSize = True
-        Me.chkNegrita.Location = New System.Drawing.Point(25, 67)
-        Me.chkNegrita.Name = "chkNegrita"
-        Me.chkNegrita.Size = New System.Drawing.Size(67, 17)
-        Me.chkNegrita.TabIndex = 1
-        Me.chkNegrita.Text = "Negrita"
-        Me.chkNegrita.UseVisualStyleBackColor = True
+        Me.optFondoAzul.AutoSize = True
+        Me.optFondoAzul.ForeColor = System.Drawing.Color.Blue
+        Me.optFondoAzul.Location = New System.Drawing.Point(16, 104)
+        Me.optFondoAzul.Name = "optFondoAzul"
+        Me.optFondoAzul.Size = New System.Drawing.Size(49, 17)
+        Me.optFondoAzul.TabIndex = 2
+        Me.optFondoAzul.TabStop = True
+        Me.optFondoAzul.Text = "Azul"
+        Me.optFondoAzul.UseVisualStyleBackColor = True
+        '
+        'optFondoRojo
+        '
+        Me.optFondoRojo.AutoSize = True
+        Me.optFondoRojo.ForeColor = System.Drawing.Color.Red
+        Me.optFondoRojo.Location = New System.Drawing.Point(16, 67)
+        Me.optFondoRojo.Name = "optFondoRojo"
+        Me.optFondoRojo.Size = New System.Drawing.Size(51, 17)
+        Me.optFondoRojo.TabIndex = 1
+        Me.optFondoRojo.TabStop = True
+        Me.optFondoRojo.Text = "Rojo"
+        Me.optFondoRojo.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.optFondoRojo.UseVisualStyleBackColor = True
+        '
+        'optFondoVerde
+        '
+        Me.optFondoVerde.AutoSize = True
+        Me.optFondoVerde.BackColor = System.Drawing.Color.White
+        Me.optFondoVerde.ForeColor = System.Drawing.Color.Green
+        Me.optFondoVerde.Location = New System.Drawing.Point(16, 34)
+        Me.optFondoVerde.Name = "optFondoVerde"
+        Me.optFondoVerde.Size = New System.Drawing.Size(58, 17)
+        Me.optFondoVerde.TabIndex = 0
+        Me.optFondoVerde.TabStop = True
+        Me.optFondoVerde.Text = "Verde"
+        Me.optFondoVerde.UseVisualStyleBackColor = False
+        '
+        'txtTexto
+        '
+        Me.txtTexto.Location = New System.Drawing.Point(62, 39)
+        Me.txtTexto.Name = "txtTexto"
+        Me.txtTexto.Size = New System.Drawing.Size(292, 20)
+        Me.txtTexto.TabIndex = 1
+        Me.txtTexto.Text = "Texto a Cambiar"
         '
         'btnLimpiar
         '
@@ -230,11 +231,21 @@ Partial Class Form3
         Me.Button2.Text = "Terminar"
         Me.Button2.UseVisualStyleBackColor = True
         '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(691, 37)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.TabIndex = 4
+        Me.Button1.Text = "Regresar"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'Form3
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.btnLimpiar)
         Me.Controls.Add(Me.txtTexto)
@@ -242,12 +253,12 @@ Partial Class Form3
         Me.Name = "Form3"
         Me.Text = "Form3"
         Me.container.ResumeLayout(False)
-        Me.GroupBox1.ResumeLayout(False)
-        Me.GroupBox1.PerformLayout()
-        Me.GroupBox2.ResumeLayout(False)
-        Me.GroupBox2.PerformLayout()
         Me.GroupBox3.ResumeLayout(False)
         Me.GroupBox3.PerformLayout()
+        Me.GroupBox2.ResumeLayout(False)
+        Me.GroupBox2.PerformLayout()
+        Me.GroupBox1.ResumeLayout(False)
+        Me.GroupBox1.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -269,4 +280,5 @@ Partial Class Form3
     Friend WithEvents chkMayuscula As CheckBox
     Friend WithEvents btnLimpiar As Button
     Friend WithEvents Button2 As Button
+    Friend WithEvents Button1 As Button
 End Class
